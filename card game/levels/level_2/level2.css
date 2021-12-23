@@ -1,0 +1,79 @@
+body {
+  background-image: url("general_img/background.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  background-size: cover;
+}
+
+.grid {
+  width: 87.3%;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto;
+}
+
+.grid img {
+  border-radius: 15px;
+  height: auto;
+  width: auto;
+  max-width: 80%;
+  max-height: 80%;
+  margin: 2px;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.audio {
+  display: none;
+}
+
+.flip {
+  transform: rotateY(180deg);
+}
+
+.popup {
+  background: red;
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  z-index: 20;
+  top: 100px;
+  left: 100px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.data {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  font-size: 23px;
+  font-family: Arial;
+}
+
+.data span {
+  color: rgb(231, 192, 133);
+  font-size: 30px;
+}
+
+img#b_c.flip {
+  width: 160px;
+  height: 240px;
+}
+
+img#b_c {
+  width: 160px;
+  height: 240px;
+}
+
+#b_c:hover {
+  cursor: pointer;
+  border: 3px solid rgb(95, 226, 19);
+  box-sizing: border-box;
+  transition: 0.2s ease;
+}

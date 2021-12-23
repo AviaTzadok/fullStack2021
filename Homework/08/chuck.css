@@ -1,0 +1,59 @@
+body {
+    background-image: url("images/chuck2.jpg");
+    background-size: 50px;
+    /* background-size: cover; */
+}
+
+.search {
+    position: absolute;
+    left: 30%;
+    top: 20px;
+}
+
+.srch {
+    width: 400px;
+    height: 40px;
+    background-color: rgba(231, 200, 200);
+    border: solid black;
+}
+
+::placeholder {
+    padding: 40%;
+    font-size: 15px;
+}
+
+.btn_srch {
+    width: 100px;
+    height: 40px;
+    background-color: rgba(238, 38, 38);
+    color: white;
+    border: solid black;
+}
+
+.categories {
+    position: absolute;
+    margin-top: 100px;
+    width: 72px;
+    border: solid black;
+    background-color: rgba(231, 200, 200);
+}
+
+button.cat {
+    width: 72px;
+    height: 30px;
+    color: black;
+    padding-left: 9%;
+    font-size: 15px;
+}
+
+.search_results {
+    background-color: rgba(231, 200, 200);
+    border: solid black;
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    padding-right: 50;
+    margin-left: -150px;
+    color: black;
+    font-size: 24px;
+}
